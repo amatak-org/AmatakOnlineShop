@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+amatak_shop.egg-info/PKG-INFO
+amatak_shop.egg-info/SOURCES.txt
+amatak_shop.egg-info/dependency_links.txt
+amatak_shop.egg-info/top_level.txt

@@ -1,5 +1,5 @@
 [project]
-name = "Amatak Online Shop"
+name = "amatak-shop"
 version = "1.0.1"
 authors = [
   { name="Rony MAN", email="amatak.io@outlook.com" },
@@ -16,3 +16,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/amatak-org/AmatakOnlineShop"
 "Bug Tracker" = "https://github.com/amatak-org/AmatakOnlineShop/issues"
+
+[tool.setuptools]
+py-modules = []

@@ -1,4 +1,17 @@
-__Amatak Online Shop__ was created and is currently maintained and developed by Amatak the full documentation can be found in
+Metadata-Version: 2.1
+Name: amatak-shop
+Version: 1.0.1
+Summary: Amatak OpenSource Online Shop 
+Author-email: Rony MAN <amatak.io@outlook.com>
+Project-URL: Homepage, https://github.com/amatak-org/AmatakOnlineShop
+Project-URL: Bug Tracker, https://github.com/amatak-org/AmatakOnlineShop/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+__Amatak Online Shop__ was created and is currently maintained and developed by Amatak the full documetation an be found in
 [amatak.org](https://amatak.org/docs/projects/AmatakOnlineShop)
 
 ### Join our  [Stack Overflow](https://stackoverflow.com/users/22269946/amatak)
