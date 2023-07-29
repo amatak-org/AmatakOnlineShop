@@ -50,7 +50,10 @@ Product Items:
 
 
 # Homepage Screen
-[Home Screen](https://github.com/amatak-org/AmatakOnlineShop/blob/main/screenshot.png)
+![Home Screen](static_in_env/img/screenshot.png)
+
+# Client Coupon Views
+![Check Out cart](static_in_env/img/screenshot_checkout_with_coupon.png)
 
 # Client Checkout Views
-[Check Out cart](https://github.com/amatak-org/AmatakOnlineShop/blob/main/screenshot_checkout.png)
+![Check Out cart](static_in_env/img/screenshot_checkout.png)
