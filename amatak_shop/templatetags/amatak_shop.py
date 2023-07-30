@@ -9,11 +9,12 @@ from django.utils.formats import number_format
 from django.utils.timezone import localdate
 from amatak_shop.models.order import *
 
-from amatak_shop import __version__
-from amatak_shop import __license__
-from amatak_shop import __author__
-from amatak_shop import __amatak_email__
-from amatak_shop import __amatak_site_url__
+from . import __version__
+from . import __license__
+from . import __author__
+from . import  __amatak_email__
+from . import __amatak_site_url__
+
 
 register = template.Library()
 

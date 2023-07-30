@@ -16,6 +16,12 @@ INSTALLED_APPS += [
     'debug_toolbar'
 ]
 
+"""
+GRAPHENE = {
+    "SCHEMA": "eCommerce.chema"
+}
+"""
+
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
 
 # DEBUG TOOLBAR SETTINGS
@@ -52,5 +58,3 @@ DATABASES = {
     }
 }
 
-STRIPE_PUBLIC_KEY = config('STRIPE_TEST_PUBLIC_KEY')
-STRIPE_SECRET_KEY = config('STRIPE_TEST_SECRET_KEY')

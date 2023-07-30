@@ -34,8 +34,8 @@ __This is the best way to get started twith this project if you are not familiar
 pip install amatak-shop
 ````
 
-### add amatak to django app installed:
-# in Django App setting.
+### Installed App:
+# add (amatak_shop) in Django App setting.
 
 ````
 INSTALLED_APPS = [
@@ -51,7 +51,6 @@ INSTALLED_APPS = [
 
 
 ### Current Contents.
-# Current Version 1.0.4
 # features:
 ## Categories:
 

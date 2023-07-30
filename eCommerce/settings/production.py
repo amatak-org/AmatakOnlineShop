@@ -1,6 +1,5 @@
 """
-AutoStore( Automotive Online Shop).
-We launch this business Store live at www.autocare7.com
+Amatak Online Shop
 Copyright© Amatak Holdings Pty Ltd licensed under the MIT Agreement.
 If you interesting to be part of this project pleaese contact:
 Rony MAN <amatak.io@outlook.com>
@@ -10,7 +9,7 @@ OpenSource <www.amatak.org>
 from .base import *
 
 DEBUG = config('DEBUG', cast=bool)
-ALLOWED_HOSTS = ['ip-address', 'www.shop.autocare7.com']
+ALLOWED_HOSTS = ['ip-address', 'www.shop.amatak.io']
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},

@@ -1,6 +1,5 @@
 """
-AutoStore( Automotive Online Shop).
-We launch this business Store live at www.autocare7.com
+Amatak Online Shop
 Copyright© Amatak Holdings Pty Ltd licensed under the MIT Agreement.
 If you interesting to be part of this project pleaese contact:
 Rony MAN <amatak.io@outlook.com>
@@ -29,6 +28,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_countries',
     'crispy_bootstrap4',
+    'graphene_django',
     'amatak_shop',
 ]
 
@@ -89,6 +89,6 @@ LOGIN_REDIRECT_URL = '/'
 # CRISPY FORMS
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+STRIPE_PUBLIC_KEY = config('STRIPE_TEST_PUBLIC_KEY')
+STRIPE_SECRET_KEY = config('STRIPE_TEST_SECRET_KEY')
