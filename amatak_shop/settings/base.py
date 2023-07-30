@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_countries',
     'crispy_bootstrap4',
+    'amatak_shop',
 
 ]
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]

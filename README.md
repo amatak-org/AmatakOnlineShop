@@ -6,54 +6,96 @@ __Amatak Online Shop__ was created and is currently maintained and developed by 
 To clone this project from 
 [GitHub](https://github.com/amatak-org/AmatakOnlineShop).
 
+
+# Https
+````Https
+https://github.com/amatak-org/AmatakOnlineShop.git
+````
+# SSH
+````SSH
+git@github.com:amatak-org/AmatakOnlineShop.git
+````
+# GITHUB CLI
+````GITHUB CLI
+gh repo clone amatak-org/AmatakOnlineShop
+````
+
 ### Here is briefly descript about this online shopping.
 
 
-__This project can greatly benefit from contributions towards Documentation and Unit Tests.__
+
+__Amatak Online Shop is a small online store shopping that everyone can be owned.__
+__To get started head up to [DjangoProject](https://www.djangoproject.com/) page and follow all the way of tutorial there__
 __This is the best way to get started twith this project if you are not familiar with the models.__
 
+### Install from py library:
+
+````
+pip install amatak-shop
+````
+
+### add amatak to django app installed:
+# in Django App setting.
+
+````
+pip install Django
+````
+
+
 ### Current Contents.
-# Current Version 1.0.1
+# Current Version 1.0.4
+# features:
+## Categories:
 
-Style & Layout:
+- Women Fashion
+- Men Fashion
+- Phones & Telecommunications
+- Computer,Office & Security
+- Consumer & Electronics
+- Jewelry & Watches
+- Home,pet & Appliances
+- Bags & Shoes
+- Toys, Kids & Babies
+- Outdoor Fun & Sports
+- Beauty, Health & Hair
+- Automobiles & Motorcycles
+- Tools & Home Improvement
 
-- Bootrap
-- Bulma Css
-- 
-Store:
-- Homepage
-- Categories
-- Navbar
-- Footer
-- Sidebar
-Payment Choices
+## Store' Models:
+- Address
+- Category
+- Item
+- Order
+- Order Item
+- Payment
+- Refund
+- User Profile
+- User Receiver Profile
+- Vender Store
+- Seller Dasboard
+- Customer Reviews
+- Shipping Integrate
+## Payment' Gateway:
 - Stripe
 - Paypal
-- payment refund
-- Coupon Applied
-Product Items:
-- upload from admin
 
-### Roadmap to version 1.0.2.
+## Frontend:
+- [GetWeb](https://getweb.dev/)
+- [Bootrap](https://getbootstrap.com/)
+- [Bulma](https://bulma.io/)
+- [Mdbootrap](https://mdbootstrap.com/)
+- [VuesJs](https://vuejs.org/)
 
-Style & Layout:
 
-- Tiles Grid at the homepage
-- pai
-- Customize login/signUp
-Store:
-- Homepage
-- Categories
-Product Items:
-- upload from admin
-- Upload differnet images to one direction
+## Backend:
+- [Django](https://www.djangoproject.com/)
 
 
 # Homepage Screen
-![Home Screen](static_in_env/img/screenshot.png)
+![Home Screen](https://pub-3f83785b7aa64195b0afb81d8ef9ca5c.r2.dev/Images/cdn.amatak.org/screenshot.png)
 
-# Client Coupon Views
-![Check Out cart](static_in_env/img/screenshot_checkout_with_coupon.png)
+# Client Checkout With Coupon
+![Check Out cart](https://pub-3f83785b7aa64195b0afb81d8ef9ca5c.r2.dev/Images/cdn.amatak.org/screenshot_checkout_with_coupon.png)
 
 # Client Checkout Views
-![Check Out cart](static_in_env/img/screenshot_checkout.png)
+![Check Out cart](https://pub-3f83785b7aa64195b0afb81d8ef9ca5c.r2.dev/Images/cdn.amatak.org/screenshot_checkout.png)

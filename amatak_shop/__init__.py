@@ -10,7 +10,7 @@ OpenSource <www.amatak.org>
 default_app_config = 'amatak_shop.apps.AmatakShopConfig'
 
 """Amatak Online Shop"""
-__version__ = 'v.1.0.1'
+__version__ = 'v.1.0.4'
 __license__ = 'MIT License'
 
 __author__ = 'Rony MAN'

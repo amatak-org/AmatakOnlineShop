@@ -1,6 +1,6 @@
 [project]
 name = "amatak-shop"
-version = "1.0.2"
+version = "1.0.4"
 authors = [
   { name="Rony MAN", email="amatak.io@outlook.com" },
 ]
