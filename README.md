@@ -38,7 +38,15 @@ pip install amatak-shop
 # in Django App setting.
 
 ````
-pip install Django
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'amatak_shop',
+]
 ````
 
 

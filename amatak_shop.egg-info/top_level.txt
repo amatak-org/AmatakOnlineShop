@@ -1,5 +1,0 @@
-amatak_shop
-dist
-eCommerce
-media_root
-static_in_env
